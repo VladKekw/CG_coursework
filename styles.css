@@ -1,0 +1,172 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-color: #fdfdfd;
+    color: #333;
+    overflow-x: hidden;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.left-content, .right-content {
+    width: 48%;
+}
+.logo {
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  width: 60px; 
+  height: auto;
+  opacity: 0.8;
+}
+.left-content img, .car-models img {
+    max-width: 100%;
+    height: 70vh;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+}
+/* Стилі для заголовків */
+h1, h2 {
+    color: #A63A3B;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Стилі для навігації */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #3A7CA5;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 20px;
+    background-color: #3A7CA5;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #A63A3B;
+}
+
+/* Стилі для основного контенту */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для зображень */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Стилі для кнопок */
+button {
+    background-color: #A63A3B;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3A7CA5;
+}
+
+/* Стилі для футера */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #A6A43A;
+    color: #FFF;
+    
+    width: 100%;
+    bottom: 0;
+}
+.footr {
+    text-align: center;
+    padding: 10px;
+    background-color: #A6A43A;
+    color: #FFF;
+    
+    width: 100%;
+    bottom: 0;
+}
+/* Нові стилі для альтернативного розташування */
+
+.left-content-alt {
+    width: 48%;
+    /* Стилі для тексту, як у правого блоку */
+    color: #333;
+    padding: 5px;
+    text-align: left;
+}
+
+.right-content-alt {
+    width: 48%;
+    /* Стилі для зображення з лівого блоку */
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Стилі для тексту */
+p {
+    text-indent: 20px;           /* Табуляція для кожного абзацу */
+    font-size: 1.2em;            /* Трохи збільшений розмір шрифту */
+    text-align: justify;         /* Вирівнювання тексту по ширині */
+    line-height: 1.6;            /* Збільшений міжрядковий інтервал */
+    margin-bottom: 15px;         /* Відступи між абзацами для зручності читання */
+}
+
+.right-content-alt img {
+    max-width: 100%;
+    height: 70vh;
+    border-radius: 4px;
+}
+/* Стиль для GIF */
+.animated-gif {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9; /* Може додати трохи прозорості */
+}
+
+
+/* Ключові кадри для безкінечної анімації */
+@keyframes playGif {
+    100% {
+        background-position: -1000px; /* Зміни в залежності від ширини вашої GIF */
+    }
+}
